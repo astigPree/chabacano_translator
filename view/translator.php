@@ -117,8 +117,62 @@
 
     <script>
 
-        const chabano1 = document.getElementById('lang1-chabacano');
+        let sourceLanguage = 'cb';
+        let targetLanguage = 'tl';
 
+        const chabano1 = document.getElementById('lang1-chabacano');
+        const tagalog1 = document.getElementById('lang1-tagalog');
+        const english1 = document.getElementById('lang1-english');
+
+        const chabano2 = document.getElementById('lang2-chabacano');
+        const tagalog2 = document.getElementById('lang2-tagalog');
+        const english2 = document.getElementById('lang2-english');
+
+        chabano1.classList.add('selected');
+        tagalog2.classList.add('selected');
+
+        chabano1.addEventListener('click', function() {
+            sourceLanguage = 'cb';
+            chabano1.classList.add('selected');
+            tagalog1.classList.remove('selected');
+            english1.classList.remove('selected');
+        });
+
+        tagalog1.addEventListener('click', function() {
+            sourceLanguage = 'tl';
+            tagalog1.classList.add('selected');
+            chabano1.classList.remove('selected');
+            english1.classList.remove('selected');
+        });
+
+        english1.addEventListener('click', function() {
+            sourceLanguage = 'en';
+            english1.classList.add('selected');
+            chabano1.classList.remove('selected');
+            tagalog1.classList.remove('selected');
+        });
+
+        chabano2.addEventListener('click', function() {
+            targetLanguage = 'cb';
+            chabano2.classList.add('selected');
+            tagalog2.classList.remove('selected');
+            english2.classList.remove('selected');
+        });
+
+        tagalog2.addEventListener('click', function() {
+            targetLanguage = 'tl';
+            tagalog2.classList.add('selected');
+            chabano2.classList.remove('selected');
+            english2.classList.remove('selected');
+        });
+
+
+        english2.addEventListener('click', function() {
+            targetLanguage = 'en';
+            english2.classList.add('selected');
+            chabano2.classList.remove('selected');
+            tagalog2.classList.remove('selected');
+        });
 
 
         // // Set default selection
