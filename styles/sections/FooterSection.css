@@ -1,0 +1,31 @@
+.footer {
+    padding: 4em 10em;
+}
+
+.footer .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0em;
+    border-bottom: 1px solid var(--light-color);
+    z-index: 100;
+}
+
+.footer .navbar .navbar__links {
+    display: flex;
+    gap: 2.5em;
+}
+
+.footer .navbar .navbar__links .navbar__links__item a {
+    padding-block: 1em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.footer .navbar .navbar__links .navbar__links__item a:hover {
+    border-bottom-color: var(--light-color);
+}
+
+.footer .footer__copyright {
+    margin-top: 2em;
+}

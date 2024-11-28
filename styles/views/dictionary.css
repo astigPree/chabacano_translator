@@ -1,0 +1,36 @@
+.dictionary {
+    margin-top: 10em;
+    margin-inline: 5.5em;
+}
+
+.dictionary .dictionary__content .dictionary__content__heading h1 {
+    margin-bottom: 0.5em;
+}
+
+.dictionary .dictionary__content .divider {
+    margin-block: 1em;
+    height: 1px;
+    background-color: var(--dark-color);
+}
+
+.dictionary .dictionary__content .dictionary__content__navigation {
+    margin-block: 1em;
+}
+
+.dictionary .dictionary__content .dictionary__content__navigation nav a:hover {
+    color: var(--dark-color) !important;
+}
+
+.dictionary .dictionary__content .dictionary__content__word--lists {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 1.5em;
+}
+
+.dictionary
+    .dictionary__content
+    .dictionary__content__word--lists
+    p:nth-child(2) {
+    margin-top: 0.5em;
+}

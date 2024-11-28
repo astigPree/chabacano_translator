@@ -1,0 +1,94 @@
+.translator {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 2;
+}
+
+.translator__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 1200px;
+}
+
+.translator .translator__col {
+    position: relative;
+}
+
+.translator .translator__col .translator__col__language--selector {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.translator .translator__col .translator__col__language--selector button {
+    display: inline-block;
+    padding: 1em 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Apply underline on hover */
+.translator .translator__col .translator__col__language--selector button:hover {
+    border-bottom-color: var(--light-color);
+}
+
+/* Apply underline when selected, and override hover effect */
+.translator
+    .translator__col
+    .translator__col__language--selector
+    button.selected {
+    border-bottom-color: var(--light-color);
+}
+
+.translator .translator__col .translator__col__textarea {
+    height: 300px;
+    padding: 1em 2em;
+    max-width: 100%;
+    width: 550px;
+    border: 2px solid var(--light-color);
+    border-radius: 0.5rem;
+}
+
+.translator .translator__col .translator__col__textarea textarea {
+    width: 100%;
+    height: 100%;
+    font-size: var(--fs-heading-6);
+    color: var(--light-color);
+    border: none;
+    outline: none;
+    background: transparent;
+    resize: none;
+}
+
+.translator .translator__col .translator__col__action button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.translator .translator__col .translator__col__action {
+    position: absolute;
+    bottom: 20px;
+}
+
+.translator .translator__col .translator__col__speaker {
+    left: 20px;
+}
+
+.translator .translator__col .translator__col__copy {
+    right: 20px;
+}
+
+.translator .translator__content .translator__col__swap--button button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

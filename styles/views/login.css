@@ -1,0 +1,94 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.login .login__content {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.login .login__content .container {
+    padding-inline: 4em;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login .login__content .login__content__logo--container {
+    background-color: var(--secondary-color);
+}
+
+.login .login__content .login__content__logo--container img {
+    width: 350px;
+}
+
+.login .login__content .login__content__form--container {
+    border: 1px solid var(--secondary-color);
+}
+
+.login
+    .login__content
+    .login__content__form--container
+    .login__content__form--container__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
+
+.login
+    .login__content
+    .login__content__form--container
+    .login__content__form--container__form
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.login
+    .login__content
+    .login__content__form--container
+    .login__content__form--container__form
+    form
+    .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.login
+    .login__content
+    .login__content__form--container
+    .login__content__form--container__form
+    form
+    .form-group
+    input {
+    padding: 1em 2em;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    outline: none;
+    width: 350px;
+}
+
+.login
+    .login__content
+    .login__content__form--container
+    .login__content__form--container__form
+    form
+    .form-group
+    button {
+    padding-inline: 4em;
+    margin-top: 2em;
+}

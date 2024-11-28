@@ -1,0 +1,241 @@
+/* Resets */
+
+body {
+  position: relative;
+  scroll-behavior: smooth;
+  font-family: "Raleway Regular", serif;
+  height: 90vh;
+  background-image: url("../assets/images/chabacano_translator_hero_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(74, 74, 74, 0.5);
+  z-index: 1;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--dark-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Font Sizes */
+.fs-heading-1 {
+  font-size: var(--fs-heading-1);
+  font-family: "Play Fair Display Regular", sans-serif;
+}
+
+.fs-heading-1-bold {
+  font-size: var(--fs-heading-1);
+  font-family: "Play Fair Display Bold", sans-serif;
+}
+
+.fs-heading-2 {
+  font-size: var(--fs-heading-2);
+  font-family: "Play Fair Display Regular", sans-serif;
+}
+
+.fs-heading-3 {
+  font-size: var(--fs-heading-3);
+  font-family: "Play Fair Display Regular", sans-serif;
+}
+
+.fs-heading-4 {
+  font-size: var(--fs-heading-4);
+  font-family: "Play Fair Display Regular", sans-serif;
+}
+
+.fs-heading-5 {
+  font-size: var(--fs-heading-5);
+  font-family: "Play Fair Display Regular", sans-serif;
+}
+
+.fs-heading-6 {
+  font-size: var(--fs-heading-6);
+  font-family: "Play Fair Display Regular", sans-serif;
+}
+
+.fs-heading-6-bold {
+  font-size: var(--fs-heading-6);
+  font-family: "Play Fair Display Bold", sans-serif;
+}
+
+.fs-body-text {
+  font-size: var(--fs-body-text);
+  font-family: "Raleway Regular", serif;
+}
+
+.fs-body-text-bold {
+  font-size: var(--fs-body-text);
+  font-family: "Raleway Bold", serif;
+}
+
+.fs-body-text-semibold {
+  font-size: var(--fs-body-text);
+  font-family: "Raleway Semibold", serif;
+}
+
+.fs-small-text {
+  font-size: var(--fs-small-text);
+  font-family: "Raleway Regular", serif;
+}
+
+.fs-xsmall-text {
+  font-size: var(--fs-xsmall-text);
+  font-family: "Raleway Regular", serif;
+}
+
+/* Colors */
+
+.text-light {
+  color: var(--light-color) !important;
+}
+
+.text-white {
+  color: var(--white-color) !important;
+}
+
+.text-dark {
+  color: var(--dark-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.text-accent-1 {
+  color: var(--accent-1-color) !important;
+}
+
+.text-accent-2 {
+  color: var(--accent-2-color) !important;
+}
+
+.text-accent-3 {
+  color: var(--accent-3-color) !important;
+}
+
+.bg-light {
+  background-color: var(--light-color) !important;
+}
+
+.bg-white {
+  background-color: var(--white-color) !important;
+}
+
+.bg-white-fff {
+  background-color: #fff !important;
+}
+
+.bg-dark {
+  background-color: var(--dark-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.bg-accent-1 {
+  background-color: var(--accent-1-color) !important;
+}
+
+.bg-accent-2 {
+  background-color: var(--accent-2-color) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 1em 2.5em;
+  background: none;
+  cursor: pointer;
+  border: 1px solid var(--light-color);
+  transition: all 0.2s ease;
+}
+
+.button--sm {
+  padding: 0.5em 1.5em;
+}
+
+.button--xsm {
+  padding: 0.25em 1em;
+}
+
+.button--primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.button--light {
+  border: 1px solid var(--light-color);
+  color: var(--light-color);
+}
+
+.button--secondary {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.button--primary:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color) !important;
+}
+
+.button--light:hover {
+  background-color: var(--light-color);
+  color: var(--dark-color) !important;
+}
+
+.button--secondary:hover {
+  background-color: var(--white-color);
+  color: var(--secondary-color) !important;
+}
+
+.ct-input {
+  width: 100%;
+  padding: 1em 1em;
+  margin-bottom: 1em;
+}
+
+.ct-textarea {
+  width: 100%;
+  padding: 1em 1em;
+  margin-bottom: 1em;
+}

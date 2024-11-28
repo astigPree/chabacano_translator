@@ -1,0 +1,22 @@
+.hero {
+  z-index: 2;
+}
+
+.hero .hero__content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero .hero__content .hero__content__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding-block: 11em;
+}
+
+.hero .hero__content .hero__content__main .hero__content__tagline p {
+  width: 800px;
+  text-align: center;
+}

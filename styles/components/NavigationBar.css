@@ -1,0 +1,53 @@
+.header {
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+
+.header .header__navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  padding: 1.5em 4em;
+  border-bottom: 1px solid var(--light-color);
+  z-index: 100;
+  background-color: #8e7d6b94;
+}
+
+.header .header__navbar .header__navbar__links {
+  display: flex;
+  gap: 2.5em;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header
+  .header__navbar
+  .header__navbar__links
+  .header__navbar__links__container {
+  display: flex;
+  gap: 2.5em;
+}
+
+.header .header__navbar .header__navbar__links .navbar__links__item a {
+  padding-block: 1em;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.header .header__navbar .header__navbar__links .navbar__links__item a:hover {
+  border-bottom-color: var(--light-color);
+}
+
+.header .header__navbar .header__navbar__burger--menu {
+  display: none;
+}
+
+.header .header__navbar .header__navbar__burger--menu > img {
+  width: 30px;
+}

@@ -1,0 +1,85 @@
+@import "./variables.css";
+
+/* Heading Fonts */
+@font-face {
+    font-family: "Play Fair Display Regular";
+    src: local("Play Fair Display Regular"), local("Play Fair Display Regular");
+    src: url("../assets/fonts/playfair_display/PlayfairDisplay-Regular.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-normal);
+}
+
+@font-face {
+    font-family: "Play Fair Display Semibold";
+    src: local("Play Fair Display Semibold"),
+        local("Play Fair Display Semibold");
+    src: url("../assets/fonts/playfair_display/PlayfairDisplay-SemiBold.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-semibold);
+}
+
+@font-face {
+    font-family: "Play Fair Display Bold";
+    src: local("Play Fair Display Bold"), local("Play Fair Display Bold");
+    src: url("../assets/fonts/playfair_display/PlayfairDisplay-Bold.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-bold);
+}
+
+@font-face {
+    font-family: "Play Fair Display Extra Bold";
+    src: local("Play Fair Display Extra Bold"),
+        local("Play Fair Display Extra Bold");
+    src: url("../assets/fonts/playfair_display/PlayfairDisplay-ExtraBold.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-bold);
+}
+
+/* BODY TEXTS */
+@font-face {
+    font-family: "Raleway Italic";
+    src: local("Raleyway Italic"), local("Raleyway Italic");
+    src: url("../assets/fonts/raleway_font/Raleway-Italic.ttf")
+        format("truetype");
+    font-style: italic;
+    font-weight: var(--fw-normal);
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: local("Raleyway Light"), local("Raleyway Light");
+    src: url("../assets/fonts/raleway_font/Raleway-Light.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-light);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: local("Raleyway Regular"), local("Raleyway Regular");
+    src: url("../assets/fonts/raleway_font/Raleway-Regular.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-normal);
+}
+
+@font-face {
+    font-family: "Raleway Semibold";
+    src: local("Raleyway Semibold"), local("Raleyway Semibold");
+    src: url("../assets/fonts/raleway_font/Raleway-SemiBold.ttf")
+        format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-semibold);
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: local("Raleyway Bold"), local("Raleyway Bold");
+    src: url("../assets/fonts/raleway_font/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: var(--fw-bold);
+}

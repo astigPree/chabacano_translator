@@ -1,0 +1,30 @@
+:root {
+    /* Color Palettes */
+    --light-color: #efe8dc;
+    --white-color: #f7f7f7;
+    --dark-color: #4a4a4a;
+    --primary-color: #8e7d6b;
+    --secondary-color: #bda588;
+    --accent-1-color: #d4b59e;
+    --accent-2-color: #f4e3cf;
+    --accent-3-color: #b2b2b2;
+
+    /* Font Sizes */
+    --fs-heading-1: 5.613rem;
+    --fs-heading-2: 4.206rem;
+    --fs-heading-3: 3.156rem;
+    --fs-heading-4: 2.369rem;
+    --fs-heading-5: 1.775rem;
+    --fs-heading-6: 1.331rem;
+
+    --fs-body-text: 1rem;
+    --fs-small-text: 0.75rem;
+    --fs-xsmall-text: 0.563rem;
+
+    /* Font Weights */
+    --fw-light: 300;
+    --fw-normal: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extra-bold: 900;
+}

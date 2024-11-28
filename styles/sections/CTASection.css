@@ -1,0 +1,19 @@
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding: 8em 0em;
+}
+
+.cta .cta__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cta .cta__cta {
+    display: flex;
+    gap: 2em;
+}

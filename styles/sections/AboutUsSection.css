@@ -1,0 +1,27 @@
+.about-us .about-us__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5em;
+  padding: 4em 4em;
+}
+
+.about-us .about-us__content .about-us__content__col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.about-us .about-us__content .about-us__content__col-1 p {
+  margin-top: 1em;
+}
+
+.about-us .about-us__content .about-us__content__col-2__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .about-us__content .about-us__content__col-2__image img {
+  width: 600px;
+}

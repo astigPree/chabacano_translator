@@ -1,0 +1,15 @@
+@import "./fonts.css";
+@import "./globals.css";
+
+@import "./components/NavigationBar.css";
+
+@import "./sections/HeroSection.css";
+@import "./sections//AboutUsSection.css";
+@import "./sections/CTASection.css";
+@import "./sections/FooterSection.css";
+
+@import "./views/translator.css";
+@import "./views/dictionary.css";
+@import "./views/login.css";
+@import "./views/story.css";
+@import "./views/admin/index.css";
